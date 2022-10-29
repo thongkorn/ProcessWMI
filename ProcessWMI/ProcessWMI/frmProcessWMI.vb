@@ -38,7 +38,7 @@ Public Class frmProcessWMI
         Timer1.Interval = CInt(cmbTimer.Text) * 1000    '/ 1000 millisecond = 1 Sec.
         Timer1.Enabled = True     '/ Start working.
         '// Sample
-        txtProcessName.Text = "Excel"
+        txtProcessName.Text = ""
 
         '// Event Handler Sort Order Column on ListView.
         AddHandler ListView1.ColumnClick, AddressOf Me.ListView1_ColumnClick
